@@ -26,6 +26,12 @@ const findAllCharactersService = () => {
  return characters
 };
 
+const findCharacterByIdServicer = (idParams) =>{
+return characters.find((characters) => characters.id == idParams)
+};
+
+
 module.exports = {
-    findAllCharactersService
+    findAllCharactersService,
+    findCharacterByIdServicer
 }
