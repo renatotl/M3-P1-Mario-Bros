@@ -3,7 +3,9 @@ const route = express.Router();
 const controllerCharacters = require("../controllers/characters.controller");
 
 route.get("/All-Characters",controllerCharacters.findAllCharactersController);
-route.get("/Characters-By-Id/:id",controllerCharacters.findCharacterById);
-
+route.get("/Characters-By-Id/:id",controllerCharacters.findCharacterByIdController);
+route.post("/Create-character",controllerCharacters.createCharacterController);
+route.put("/Update-Character",controllerCharacters.updateCharacterController);
+route.delete("/Detete-character",controllerCharacters.deleteCharacterController);
 
 module.exports =  route;
