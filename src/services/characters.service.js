@@ -2,23 +2,23 @@ const characters = [
     {
         id: 1,
         nome: 'Mario',
-        description: '',
+        description: 'grows and crushes enemies',
         photo: 'assets/image/Mario.png',
-        power: '',
+        power: 'mushroom power',
     },
     {
         id: 2,
         nome: 'Yoshi',
         description: '',
         photo: 'assets/image/Yosh.png',
-        power: '',
+        power: 'fly and eat enemies',
     },
     {
         id: 3,
         nome: 'Luigi',
-        description: '',
+        description: 'grows and crushes enemies',
         photo: 'assets/image/Luigi.png',
-        power: '',
+        power: 'mushroom power',
     },
 ]
 

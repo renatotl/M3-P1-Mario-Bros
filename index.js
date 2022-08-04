@@ -10,7 +10,7 @@ app.use('/characters', route);
 app.use(cors());   
 
 app.listen(port, () => {
-    console.log(`Servidor rodando em http://localhost:${port}`);
+    console.log(`Serve work on http://localhost:${port}`);
 });
 
 
