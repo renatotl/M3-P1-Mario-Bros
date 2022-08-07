@@ -17,7 +17,7 @@ In local momery.
 
   npm init -y,
   npm i express,
-  npm i nodemon -d,
+  npm i nodemon -D,
   npm i cors,
 
 }
